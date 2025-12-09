@@ -9,7 +9,7 @@
     <!-- Left sector (1/3)-->
     <aside class="col-span-1">
 
-      <div class="h-full grid grid-rows-4">
+      <div class="h-full grid grid-rows-4 gap-4">
 
         <div class="row-span-1"> <!-- top -->
           <my-profile/>
@@ -33,19 +33,20 @@
       <!-- Row 1 -->
         <intro-blurb/>
 
-      <!-- Row 2 (2 columns) -->
-      <div class="grid grid-cols-2">
+      <!-- Row 2 -->
         <contact-info/>
-        <about-me/>
-      </div>
 
       <!-- Row 3 -->
+        <about-me/>
+
+
+      <!-- Row 4 -->
       <featured-repos/>
 
-      <!-- Row 4  -->
+      <!-- Row 5  -->
       <active-projects/>
 
-      <!-- Row 5 (widget) -->
+      <!-- Row 6 (widget) -->
       <widgets-component/>
 
     </div>
