@@ -1,55 +1,26 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
 
 
-  <section class="grid grid-cols-3 h-screen">
-    <!-- Left sector (1/3)-->
-    <aside class="col-span-1">
+  <section class="grid grid-cols-1 border max-w-5xl mx-auto">
 
-      <div class="h-full grid grid-rows-4 gap-4">
+    <my-profile/>
 
-        <div class="row-span-1"> <!-- top -->
-          <my-profile/>
-        </div>
+    <intro-blurb/>
 
-        <div class="row-span-2"> <!-- middle -->
-          <blog-highlights/>
-        </div>
+    <contact-info/>
 
-        <div class="row-span-1"> <!-- bottom -->
-          <left-section-footer/>
-        </div>
+    <support-me/>
 
-      </div>
+    <about-me/>
 
-    </aside>
+    <featured-repos/>
 
-    <!-- Right sector (2/3)-->
-    <div class="col-span-2 p-4 space-y-4">
+    <active-projects/>
 
-      <!-- Row 1 -->
-        <intro-blurb/>
-
-      <!-- Row 2 -->
-        <contact-info/>
-
-      <!-- Row 3 -->
-        <about-me/>
-
-
-      <!-- Row 4 -->
-      <featured-repos/>
-
-      <!-- Row 5  -->
-      <active-projects/>
-
-      <!-- Row 6 (widget) -->
-      <widgets-component/>
-
-    </div>
+   <!-- <blog-highlights/> -->
 
   </section>
 

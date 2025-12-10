@@ -3,10 +3,9 @@
 </script>
 
 <template>
- <div class="bg-error w-full h-full">
+ <div class="bg-error w-full">
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus hic ipsa maiores omnis placeat quia reprehenderit voluptatibus? Accusamus cum esse ipsam laboriosam mollitia nostrum odit quaerat qui ratione? Velit, voluptates.
-
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci asperiores atque, blanditiis dolorem eaque earum ex impedit in ipsa ipsum, necessitatibus neque nulla quaerat rem velit vero. Ducimus, iste.
   </div>
 </template>
 

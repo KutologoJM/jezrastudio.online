@@ -3,37 +3,38 @@
 </script>
 
 <template>
-  <div class=" w-full p-4">
+  <div class=" w-full p-4 text-center">
 
-    <h2 class="text-3xl font-bold text-center">
+    <h2 id="contact-info" class="text-3xl font-bold">
       Contact Me:
     </h2>
 
-    <p>
+    <div class="inline-block border rounded-2xl p-4 text-left">
+      <p class="text-xl">
       Business Email:
-      <a href="https://example.com" class="btn btn-link">
-        redacted@gmail.com
+      <a href="mailto:kutologojm@jezrastudio.online" class="btn btn-link text-xl">
+        kutologojm@jezrastudio.online
       </a>
     </p>
-    <p>
+     <p class="text-xl">
       Feedback Form:
-      <a href="https://example.com" class="btn btn-link">
+      <a href="https://example.com" target="_blank" class="btn btn-link text-xl">
         Google docs
       </a>
     </p>
-    <p>
+     <p class="text-xl">
       Github:
-      <a href="https://example.com" class="btn btn-link">
-        github profile
+      <a href="https://github.com/KutologoJM" target="_blank" class="btn btn-link text-xl">
+        GitHub Profile
       </a>
     </p>
-    <p>
+     <p class="text-xl">
       Linkedin:
-      <a href="https://example.com" class="btn btn-link">
-        linkedin profile
+      <a href="https://www.linkedin.com/in/kutologomashego" target="_blank" class="btn btn-link text-xl">
+        LinkedIn profile
       </a>
     </p>
-
+    </div>
 
   </div>
 </template>

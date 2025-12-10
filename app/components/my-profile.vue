@@ -7,7 +7,7 @@
 
     <div class="avatar">
       <div class="w-64 rounded-full">
-        <img src="/images/avatar.png" alt="Kutologo Jezra Mashego's profile picture.">
+        <img src="/images/avatar.jpg" alt="Kutologo Jezra Mashego's profile picture.">
       </div>
     </div>
     <h1 class="text-4xl font-bold">

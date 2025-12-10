@@ -7,6 +7,7 @@
 
     <div class="p-6 my-6">
       <h2 class="text-2xl font-bold mb-4">Support Me</h2>
+      <div class="inline-block border rounded-2xl p-4 text-left">
       <p class="mb-6">
         If you like my work, you can support me by buying me a coffee or donating.
       </p>
@@ -25,7 +26,7 @@
         </a>
       </div>
     </div>
-
+    </div>
 
   </div>
 </template>
