@@ -33,7 +33,13 @@ export default defineNuxtConfig({
                 {rel: 'manifest', href: '/site.webmanifest'},
 
             ],
-        }
+            script: [
+                {
+                    src: 'https://kit.fontawesome.com/f23e4a7e43.js',
+                    crossorigin: 'anonymous'
+                }
+            ]
+        },
     },
 
 
