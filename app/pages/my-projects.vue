@@ -3,11 +3,12 @@
 </script>
 
 <template>
-  <div class=" w-full ">
-    <h2 id="active-projects" class="text-3xl font-bold text-center">
+  <main class="prose-xl">
+
+    <h2 id="active-projects" class="text-center mb-2 mt-2 font-bold">
       Active Projects
     </h2>
-    <section class=" w-full grid grid-cols-1 lg:grid-cols-2 gap-3 p-4">
+    <div class=" grid grid-cols-1 lg:grid-cols-2 gap-3 p-4">
 
       <div class="card w-full shadow-sm bg-base-200">
         <div class="card-body">
@@ -19,7 +20,8 @@
             </a>
             <span class="badge badge-primary">Django / Python</span>
           </h2>
-          <p>A collection of small apps that form my coding playground where I can have fun while still being
+          <p>A collection of small apps that form my coding playground where I can have fun while
+            still being
             productive.</p>
         </div>
       </div>
@@ -34,14 +36,18 @@
             </a>
             <span class="badge badge-primary">DRF / Python</span>
           </h2>
-          <p>My current main project. A suite of scripts, calculators and tools for Oxygen Not Included built in
+          <p>My current main project. A suite of scripts, calculators and tools for Oxygen Not
+            Included built in
             Django.</p>
         </div>
       </div>
 
-    </section>
+    </div>
 
-  </div>
+    <featured-repos/>
+
+  </main>
+
 
 </template>
 
