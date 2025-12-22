@@ -42,7 +42,7 @@
             I am an aspiring Junior Django Developer with a focus on learning more about the language and how best
             to make reliable and useful web applications.
 
-            <figure class="flex">
+            <figure class="flex flex-wrap">
             <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python badge">
             <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django badge">
             <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwindcss badge">
@@ -100,7 +100,7 @@
               <h3 class="text-center">
                 📊 GitHub Stats
               </h3>
-              <figure class="flex gap-4">
+              <figure class="flex gap-4 flex-wrap">
                 <img
                   src="https://github-readme-stats.vercel.app/api?username=KutologoJM&show_icons=true&theme=github_dark&hide_border=true"
                   alt="my github stats">

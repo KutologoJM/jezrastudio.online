@@ -1,11 +1,15 @@
 // content.config.ts
-import { defineContentConfig, defineCollection } from '@nuxt/content'
+import {defineContentConfig, defineCollection} from '@nuxt/content'
 
 export default defineContentConfig({
-  collections: {
-    blog: defineCollection({
-      type: 'page',
-      source: 'blog/*.md'
-    })
-  }
+    collections: {
+        personal_blog: defineCollection({
+            type: 'page',
+            source: 'personal/*.md'
+        }),
+        dev_blog: defineCollection({
+            type: 'page',
+            source: 'dev/*.md'
+        }),
+    }
 })
