@@ -68,12 +68,12 @@
                 tabindex="-1"
                 class="menu dropdown-content bg-base-200 rounded-box z-1 mt-4 w-52 p-2 shadow-sm">
               <li>
-                <NuxtLink to="/dev-blog/">
+                <NuxtLink to="/dev-blog">
                   <i class="fa-solid fa-code"/>Dev
                 </NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/personal-blog/">
+                <NuxtLink to="/personal-blog">
                   <i class="fa-solid fa-blog"/>Personal
                 </NuxtLink>
               </li>
