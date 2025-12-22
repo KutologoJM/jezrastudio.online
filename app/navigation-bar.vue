@@ -29,12 +29,12 @@
             <p>Blog</p>
             <ul>
               <li>
-                <NuxtLink to="/dev-blog/home">
+                <NuxtLink to="/dev-blog">
                   <i class="fa-solid fa-code"/>Dev
                 </NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/personal-blog/home">
+                <NuxtLink to="/personal-blog">
                   <i class="fa-solid fa-blog"/>Personal
                 </NuxtLink>
               </li>
