@@ -62,18 +62,18 @@
         <li>
           <div class="dropdown dropdown-end">
             <div tabindex="0" role="button" class="min-w-full">
-              Blog<i class="fa-solid fa-chevron-down fa-2xs"/>
+              Blog
             </div>
             <ul
                 tabindex="-1"
                 class="menu dropdown-content bg-base-200 rounded-box z-1 mt-4 w-52 p-2 shadow-sm">
               <li>
-                <NuxtLink to="/dev-blog/home">
+                <NuxtLink to="/dev-blog/">
                   <i class="fa-solid fa-code"/>Dev
                 </NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/personal-blog/home">
+                <NuxtLink to="/personal-blog/">
                   <i class="fa-solid fa-blog"/>Personal
                 </NuxtLink>
               </li>
