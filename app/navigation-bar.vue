@@ -5,6 +5,7 @@
 <template>
   <nav class="navbar bg-base-200 shadow-sm">
     <div class="navbar-start">
+
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
           <i class="fa-solid fa-list"/>
@@ -25,13 +26,17 @@
             <NuxtLink to="/my-projects">Projects</NuxtLink>
           </li>
           <li>
-            <a href="">Blog</a>
+            <p>Blog</p>
             <ul>
               <li>
-                <a href="">Dev</a>
+                <NuxtLink to="/dev-blog/home">
+                  <i class="fa-solid fa-code"/>Dev
+                </NuxtLink>
               </li>
               <li>
-                <a href="">Personal</a>
+                <NuxtLink to="/personal-blog/home">
+                  <i class="fa-solid fa-blog"/>Personal
+                </NuxtLink>
               </li>
             </ul>
           </li>
@@ -39,6 +44,7 @@
       </div>
       <a href="/" class="btn btn-ghost text-xl">KutologoJM</a>
     </div>
+
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
         <li>
@@ -54,15 +60,25 @@
           <NuxtLink to="/my-projects">Projects</NuxtLink>
         </li>
         <li>
-          <details>
-            <summary>Blog</summary>
-            <ul class="p-2 bg-base-200 w-40 z-1">
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="min-w-full">
+              Blog<i class="fa-solid fa-chevron-down fa-2xs"/>
+            </div>
+            <ul
+                tabindex="-1"
+                class="menu dropdown-content bg-base-200 rounded-box z-1 mt-4 w-52 p-2 shadow-sm">
               <li>
-                <a href="">Dev</a>
-                <a href="">Personal</a>
+                <NuxtLink to="/dev-blog/home">
+                  <i class="fa-solid fa-code"/>Dev
+                </NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/personal-blog/home">
+                  <i class="fa-solid fa-blog"/>Personal
+                </NuxtLink>
               </li>
             </ul>
-          </details>
+          </div>
         </li>
 
       </ul>
